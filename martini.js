@@ -3,7 +3,7 @@ let img_width=220;
 
 function createImgs(){
     for(let i=1;i<=4;i++){
-        let src='glassware/Martini Glass/'+i+'.jpg';
+        let src='glassware/martini glass/'+i+'.jpg';
         let img=document.createElement('img');
         img.src=src;
         img.width=img_width;
